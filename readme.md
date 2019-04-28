@@ -3,11 +3,11 @@ Hola, gracias por revisar esta prueba!
 Ejecutar los ejercicios usando python 3
 
 ## Ejercicio 1:
-- Tiempo invertido en la solución: 30 minutos.
+- Tiempo invertido en la solución: 30 minutos.</br>
 El grueso del ejercicio es el calculo de la media, para ello se deben tener en cuenta dos factores: <br/>
-- 1. Si el numero es impar, es exactamente el numero en medio de la lista, este índice se puede obtener con la siguiente formula:<br/>
+1. Si el numero es impar, es exactamente el numero en medio de la lista, este índice se puede obtener con la siguiente formula:<br/>
 Math.floor( largo_de_la_lista / 2 )
-- 2. Si el número es par, la media consiste en la suma de los dos números de en medio de la lista dividida por dos.<br/>
+2. Si el número es par, la media consiste en la suma de los dos números de en medio de la lista dividida por dos.<br/>
 Siempre obtendremos el índice de la derecha con en el valor entero del siguiente calculo: largo_de_lista / 2.<br/>
 El índice de la izquierda sera entonces indice_derecho - 1, al sumar el valor de estos dos índices en la lista y dividir por dos, obtenemos la media.
 
@@ -17,9 +17,9 @@ $ python exercise1_median/median.py
 ```
 
 ## Ejercicio 2:
-- Tiempo invertido en la solución: 3 horas
-Para este ejercicio, la estrategia que aplique, es encontrar el camino de nodo a a nodo b, una vez encontrado dicho camino, se analiza que colores están repetidos en dicho camino<br/>.
-Para lograrlo, cree una clase Nodo para representar los nodos de los arboles, y un algoritmo trasversal que encuentra el camino entre el nodo raíz y nodoA y nodo raíz y nodoB, para así después encontrar el camino entre nodoA y nodoB<br/>
+- Tiempo invertido en la solución: 3 horas<br/>
+- Para este ejercicio, la estrategia que aplique, fue encontrar el camino de nodo a a nodo b, una vez encontrado dicho camino, se analiza que colores están repetidos en dicho camino.<br/>
+Para lograrlo, cree una clase Nodo para representar los nodos de los arboles, y un algoritmo trasversal que encuentra el camino entre el nodo raíz y nodoA y nodo raíz y nodoB, para así después encontrar el camino entre nodoA y nodoB, trazando el camino desde el punto de intersección entre ambos sub arboles<br/>
 
 ### Ejecución:
 ```sh
